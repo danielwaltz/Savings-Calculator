@@ -96,7 +96,6 @@
     "prettier": "^1.5.3",
     "promise-polyfill": "^6.0.2",
     "proptypes": "^1.0.0",
-    "round": "^2.0.1",
     "serve": "^6.0.0"
   }
 }
