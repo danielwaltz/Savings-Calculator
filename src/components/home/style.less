@@ -2,18 +2,22 @@
 
 .home {
 	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
 	margin: 0 auto;
 	min-height: 100%;
 	max-width: 768px;
 }
 
-.results {
-	background-color: #303030;
-	padding: 30px;
+.calculateWrap {
+	display: flex;
 }
 
-.resultAmount {
-	font-size: 1.4rem;
+.resultsWrap {
+	flex-shrink: 1;
+	background-color: #303030;
+	padding: @padding / 1.5;
 }
 
 .formWrap {
@@ -21,11 +25,11 @@
 	flex-wrap: wrap;
 	align-content: flex-start;
 	background-color: #373737;
-	padding: 15px;
+	padding: @padding / 3;
 }
 
 .inputWrap {
-	padding: 15px;
+	padding: @padding / 3;
 	width: 100%;
 	label {
 		display: block;
@@ -40,8 +44,17 @@
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
+	.resultsWrap {
+		padding: @padding;
+	}
+
+	.formWrap {
+		padding: @padding / 2;
+	}
+
 	.inputWrap {
 		width: 50%;
+		padding: @padding / 2;
 	}
 }
