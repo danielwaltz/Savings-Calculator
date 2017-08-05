@@ -1,0 +1,47 @@
+@import '~style/helpers';
+
+.home {
+	display: flex;
+	margin: 0 auto;
+	min-height: 100%;
+	max-width: 768px;
+}
+
+.results {
+	background-color: #303030;
+	padding: 30px;
+}
+
+.resultAmount {
+	font-size: 1.4rem;
+}
+
+.formWrap {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	background-color: #373737;
+	padding: 15px;
+}
+
+.inputWrap {
+	padding: 15px;
+	width: 100%;
+	label {
+		display: block;
+		font-size: 13px;
+		margin-bottom: 5px;
+	}
+	input,
+	select {
+		padding: 5px;
+		width: 100%;
+		font-size: 24px;
+	}
+}
+
+@media (min-width: 768px) {
+	.inputWrap {
+		width: 50%;
+	}
+}
