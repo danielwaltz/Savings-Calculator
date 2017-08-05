@@ -2,10 +2,16 @@
 
 .header {
 	background-color: #343434;
-	padding: @padding;
+	padding: @padding / 1.5;
 	width: 100%;
 }
 
 .title {
 	margin: 0;
+}
+
+@media (min-width: 600px) {
+	.header {
+		padding: @padding;
+	}
 }
