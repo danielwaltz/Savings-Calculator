@@ -1,6 +1,6 @@
 {
-  "name": "preact-boilerplate",
-  "version": "6.0.0",
+  "name": "savings-calculator",
+  "version": "1.0.0",
   "description": "Ready-to-go Preact starter project powered by webpack.",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --progress",
@@ -97,5 +97,14 @@
     "promise-polyfill": "^6.0.2",
     "proptypes": "^1.0.0",
     "serve": "^6.0.0"
-  }
+  },
+  "main": "webpack.config.babel.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielwaltz/Savings-Calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielwaltz/Savings-Calculator/issues"
+  },
+  "homepage": "https://github.com/danielwaltz/Savings-Calculator#readme"
 }
