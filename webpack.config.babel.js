@@ -15,7 +15,7 @@ module.exports = {
 
 	output: {
 		path: path.resolve(__dirname, "docs"),
-		publicPath: '/',
+		publicPath: '/Savings-Calculator',
 		filename: 'bundle.js'
 	},
 
